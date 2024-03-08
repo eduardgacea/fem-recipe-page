@@ -1,24 +1,32 @@
+import Linebreak from "../../ui/linebreak/Linebreak";
+import styles from "./Nutrition.module.css";
+
 function Nutrition() {
     return (
-        <section>
-            <h2>Nutrition</h2>
-            <p>The table below shows nutritional values per serving without the additional fillings.</p>
-            <ul>
+        <section className={styles.container}>
+            <h2 className={styles.title}>Nutrition</h2>
+            <p className={styles.description}>
+                The table below shows nutritional values per serving without the additional fillings.
+            </p>
+            <ul className={styles.list}>
                 <li>
-                    <div>Calories</div>
-                    <div>277kcal</div>
+                    <div className={styles.listItemName}>Calories</div>
+                    <div className={styles.listItemValue}>277kcal</div>
                 </li>
+                <Linebreak />
                 <li>
-                    <div>Carbs</div>
-                    <div>0g</div>
+                    <div className={styles.listItemName}>Carbs</div>
+                    <div className={styles.listItemValue}>0g</div>
                 </li>
+                <Linebreak />
                 <li>
-                    <div>Protein</div>
-                    <div>20g</div>
+                    <div className={styles.listItemName}>Protein</div>
+                    <div className={styles.listItemValue}>20g</div>
                 </li>
+                <Linebreak />
                 <li>
-                    <div>Fat</div>
-                    <div>22g</div>
+                    <div className={styles.listItemName}>Fat</div>
+                    <div className={styles.listItemValue}>22g</div>
                 </li>
             </ul>
         </section>

@@ -1,0 +1,42 @@
+.title,
+.description {
+    margin-bottom: var(--size-400);
+}
+
+.description,
+.listItemName {
+    color: var(--clr-neutral-wenge-brown);
+}
+
+.title,
+.listItemValue {
+    color: var(--clr-primary-nutmeg);
+}
+
+.title,
+.listItemName {
+    font-weight: var(--fw-semibold);
+}
+
+.listItemName,
+.listItemValue {
+    flex: 1;
+}
+
+.title {
+    font-family: var(--ff-accent);
+    font-size: var(--size-600);
+}
+
+.list {
+    list-style: none;
+}
+
+.list li {
+    display: flex;
+    padding: var(--size-200) var(--size-600);
+}
+
+.listItemValue {
+    font-weight: var(--fw-bold);
+}
