@@ -1,3 +1,14 @@
+.header {
+    background-color: var(--clr-neutral-white);
+}
+
 .header > img {
     width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .header,
+    .header > img {
+        border-radius: var(--size-500) var(--size-500) 0 0;
+    }
 }
