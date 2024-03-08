@@ -1,0 +1,24 @@
+:root {
+    /* colors */
+    --clr-primary-nutmeg: hsl(14, 45%, 36%);
+    --clr-primary-dark-raspberry: hsl(332, 51%, 32%);
+    --clr-neutral-white: hsl(0, 0%, 100%);
+    --clr-neutral-rose-white: hsl(330, 100%, 98%);
+    --clr-neutral-eggshell: hsl(30, 54%, 90%);
+    --clr-neutral-light-grey: hsl(30, 18%, 87%);
+    --clr-neutral-wenge-brown: hsl(30, 10%, 34%);
+    --clr-neutral-dark-charcoal: hsl(24, 5%, 18%);
+    /* typography */
+    --ff-primary: "Outfit", sans-serif;
+    --ff-accent: "Young Serif", serif;
+    --fs-normal: 1rem;
+    --fw-normal: 400;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
