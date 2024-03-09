@@ -10,5 +10,6 @@
     .main {
         padding: var(--size-900);
         border-radius: 0 0 var(--size-500) var(--size-500);
+        padding-top: var(--size-600);
     }
 }

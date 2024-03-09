@@ -1,6 +1,6 @@
 .title {
     font-family: var(--ff-accent);
-    font-weight: var(--fw-bold);
+    font-weight: var(--fw-semibold);
     font-size: var(--fs-large);
     margin-bottom: var(--size-500);
 }
