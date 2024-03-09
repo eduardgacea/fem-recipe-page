@@ -13,17 +13,23 @@ function Nutrition() {
                     <div className={styles.listItemName}>Calories</div>
                     <div className={styles.listItemValue}>277kcal</div>
                 </li>
-                <Linebreak />
+                <li>
+                    <Linebreak />
+                </li>
                 <li>
                     <div className={styles.listItemName}>Carbs</div>
                     <div className={styles.listItemValue}>0g</div>
                 </li>
-                <Linebreak />
+                <li>
+                    <Linebreak />
+                </li>
                 <li>
                     <div className={styles.listItemName}>Protein</div>
                     <div className={styles.listItemValue}>20g</div>
                 </li>
-                <Linebreak />
+                <li>
+                    <Linebreak />
+                </li>
                 <li>
                     <div className={styles.listItemName}>Fat</div>
                     <div className={styles.listItemValue}>22g</div>

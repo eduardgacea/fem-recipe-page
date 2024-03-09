@@ -3,7 +3,7 @@ import styles from "./Preptime.module.css";
 function Preptime() {
     return (
         <section className={styles.container}>
-            <h3 className={styles.title}>Preparation time</h3>
+            <h2 className={styles.title}>Preparation time</h2>
             <ul className={styles.list}>
                 <li>
                     <span className={styles.listItemContent}>
